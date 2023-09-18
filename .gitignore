@@ -1,0 +1,5 @@
+similarity.pkl.gz
+gzip -9 similarity.pkl
+git add similarity.pkl.gz
+git commit -m "Add compressed similarity.pkl.gz"
+git push origin master  # Replace "master" with your branch name if needed
